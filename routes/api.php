@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Broadcast;
 
 Broadcast::routes(['middleware' => ['auth:api']]);
 
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
